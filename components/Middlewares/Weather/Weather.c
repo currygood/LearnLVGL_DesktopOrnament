@@ -11,7 +11,7 @@
 
 #define TAG "Weather"
 #define WEATHER_BUFFER_SIZE 2048
-#define WEATHER_API_KEY "ST5xPj7PH5DmWPuT6"
+#define WEATHER_API_KEY ""	//这里填入你心知天气的apikey
 
 static uint8_t Weather_Data_Buffer[WEATHER_BUFFER_SIZE];// http接收到的数据
 static int Weather_Data_Size = 0; // 接收到的数据大小
